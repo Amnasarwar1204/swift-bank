@@ -1,0 +1,25 @@
+{
+  "name": "12-swift-bank",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "12-swift-bank": "main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "inquirer": "^9.2.23",
+    "install": "^0.13.0"
+  },
+  "devDependencies": {
+    "@types/faker": "^6.6.9",
+    "@types/inquirer": "^9.0.7"
+  }
+}
